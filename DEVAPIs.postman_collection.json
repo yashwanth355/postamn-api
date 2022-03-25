@@ -1,0 +1,391 @@
+{
+	"info": {
+		"_postman_id": "b6e1f235-5e2e-46e2-98df-cd4c3b4976e7",
+		"name": "DEVAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Leads",
+			"item": [
+				{
+					"name": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getLeadsInfo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+						},
+						"url": {
+							"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getLeadsInfo",
+							"protocol": "https",
+							"host": [
+								"c30j81s4jj",
+								"execute-api",
+								"ap-south-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"dev-getLeadsInfo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "AllAccs-Grid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+						},
+						"url": {
+							"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getAllAccounts",
+							"protocol": "https",
+							"host": [
+								"c30j81s4jj",
+								"execute-api",
+								"ap-south-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"dev-getAllAccounts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contacts",
+			"item": [
+				{
+					"name": "AllContacts-Grid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+						},
+						"url": {
+							"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getAllContacts",
+							"protocol": "https",
+							"host": [
+								"c30j81s4jj",
+								"execute-api",
+								"ap-south-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"dev-getAllContacts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SampleRequest",
+			"item": [
+				{
+					"name": "AllSRs-Grid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+						},
+						"url": {
+							"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getAllSampleRequests",
+							"protocol": "https",
+							"host": [
+								"c30j81s4jj",
+								"execute-api",
+								"ap-south-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"dev-getAllSampleRequests"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quote",
+			"item": [
+				{
+					"name": "AllQuotes-Grid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+						},
+						"url": {
+							"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getAllQuotes",
+							"protocol": "https",
+							"host": [
+								"c30j81s4jj",
+								"execute-api",
+								"ap-south-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"dev-getAllQuotes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "UsersGrid",
+					"item": [
+						{
+							"name": "AllUsers-Grid",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-getUserDetail",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-getUserDetail"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "PurchaseOrders",
+			"item": [
+				{
+					"name": "PO-Grid",
+					"item": [
+						{
+							"name": "POGrid-AllPOs",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-listPurchaseOrders",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-listPurchaseOrders"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DebitNote",
+			"item": [
+				{
+					"name": "DN-Grid",
+					"item": [
+						{
+							"name": "DNGrid-AllDNs",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-listGCDebitNoteDetails",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-listGCDebitNoteDetails"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "MRIN",
+			"item": [
+				{
+					"name": "MRIN-Grid",
+					"item": [
+						{
+							"name": "MRINsGrid-All",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-listMrins",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-listMrins"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GC",
+			"item": [
+				{
+					"name": "GC-Grid",
+					"item": [
+						{
+							"name": "GCGrid-AllGCs",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-listGCDetails",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-listGCDetails"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Supplier",
+			"item": [
+				{
+					"name": "SupplierGrid",
+					"item": [
+						{
+							"name": "AllSuppliers-Grid",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filter\":null,\"loggedinuserid\":\"Dev-5\"}"
+								},
+								"url": {
+									"raw": "https://c30j81s4jj.execute-api.ap-south-1.amazonaws.com/dev/dev-listSuppliers",
+									"protocol": "https",
+									"host": [
+										"c30j81s4jj",
+										"execute-api",
+										"ap-south-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"dev",
+										"dev-listSuppliers"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
